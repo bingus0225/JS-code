@@ -1,4 +1,4 @@
-var sayMyName = function (name) {
+var sayMyUsername = function (name) {
     alert('My name is: ' +name)
 }
 
