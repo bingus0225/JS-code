@@ -1,6 +1,6 @@
 // this function does this.
-function doCoolStuff() {
-    var currentClassName = document.getElementById('cool').className = 'cool red'
+var doCoolStuff = funtion () {
+    var currentClassName = document.getElementById('cool').className = 'cool red';
 
     // changing class name
     if (currentClassName == 'cool') {
@@ -10,11 +10,11 @@ function doCoolStuff() {
     }
 }
 
-function sayMyName(name) {
+var sayMyName = function (name) {
     alert('My name is: ' + name)
 }
 
-var car = {
+car = {
     make: 'VW',
     type: 'Polo',
     color: 'blue',
