@@ -1,14 +1,14 @@
 // this function does this.
-var doCoolStuff = function () {
-    var currentClassName = document.getElementById ('cool').className = 'cool red'
+function doCoolStuff() {
+    var currentClassName = document.getElementById('cool').className = 'cool red'
 
     // changing class name
     if (currentClassName == 'cool') {
-    document.getElementById ('cool').className = 'cool red'
+        document.getElementById('cool').className = 'cool red'
     } else {
-    document.getElementById ('cool').className = 'cool'
+        document.getElementById('cool').className = 'cool'
     }
- }
+}
 
 function sayMyName(name) {
     alert('My name is: ' + name)
