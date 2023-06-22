@@ -8,6 +8,8 @@ var doCoolStuff = function () {
     } else {
         document.getElementById ('cool').className = 'cool'
     }
+    // changing class name
+    var currentClassName = document.getElementById ('cool').className = 'cool red'
  }
 
 function sayMyName(name) {
